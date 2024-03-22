@@ -47,7 +47,7 @@ const Navbar = () => {
                             Categories
                             <IoMdArrowDropdown className="text-lg duration-200 group-hover:rotate-180" />
                         </div>
-                        <div className="absolute z-40  rounded-xl left-0 top-[36px] hidden group-hover:flex w-full ">
+                        <div className="absolute z-40  rounded-xl left-0 top-[36px] hidden group-hover:flex w-[1000px] ">
                             <div className="p-8 bg-white text-black h-min rounded-b-xl  items-center gap-4 whitespace-nowrap grid grid-cols-3 xl:grid-cols-5 w-full ">
                                 {categoriesData.map((category, index) => (
                                     <div key={index} className="flex items-center " >
